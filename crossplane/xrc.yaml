@@ -1,3 +1,9 @@
+# ---
+# apiVersion: v1
+# kind: Namespace
+# metadata:
+#   name: vcluster-1
+# ---
 apiVersion: cnp.example.org/v1alpha1
 kind: Cluster
 metadata:
@@ -5,9 +11,9 @@ metadata:
   namespace: default
 spec: {}
 ---
-apiVersion: cnp.example.org/v1alpha1
-kind: Cluster
-metadata:
-  name: cluster-2
-  namespace: default
-spec: {}
+# apiVersion: cnp.example.org/v1alpha1
+# kind: Cluster
+# metadata:
+#   name: cluster-2
+#   namespace: default
+# spec: {}

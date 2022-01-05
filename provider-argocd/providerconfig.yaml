@@ -3,7 +3,7 @@ kind: ProviderConfig
 metadata:
   name: default
 spec:
-  serverAddr: localhost:8080
+  serverAddr: argocd.192.168.105.3.nip.io
   insecure: true
   plainText: false
   credentials:
